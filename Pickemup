@@ -1,0 +1,21 @@
+
+print("Welcome to the pick-up guide! Answer my questions and we’ll have your guide ready in an instant!")
+
+#Question Section
+Adjective = input("Give me an Attribute: ")
+Noun1 = input("Now a nonspecific person or item: ")
+Greeting = input("Favorite Greeting! ")
+Place = input("How about a dark place? ")
+Noun2 = input("NOOOUUUN:Person, place or thing. ")
+Verb = input("Verb?! ")
+Thing1 = input("Bleh, give me a thing please.. ")
+Thing2 = input("Anaand another Thing, last one promise! ")
+
+#story section
+
+print(' ')
+print('Ah, you want to know how to talk to that', Adjective,Noun1,'?')
+print('Just start with "',Greeting,' are you from',Place,'? Because youre the only',Noun2,' I',Verb,'!"')
+print("Guaranteed your ",Noun1,"will be ",Thing1,"over",Thing2," for you.")
+
+#I had a much harder time with this than I thought i would! had a hardtime testing and integrating  ' " + , turns out i only needed , to  add my variables into my strings. Not sure When + comes into play? not sure how or when python decides  to read ' in words like you've.
